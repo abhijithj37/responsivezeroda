@@ -1,0 +1,324 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zeroda responsive</title>
+    <link rel="stylesheet" href="zerodaresponsive.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="header fixed-top ">
+      <nav class="navbar navbar-expand-lg bg-white ms-4 me-auto">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo img-fluid mr-auto" src="data:image/png;base64,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" alt="">
+</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-5 ms-auto     mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Signup</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+              </li>
+              
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div> 
+    </header>
+    
+    <section class="sec-1">
+        <div class="container-fluid ">
+        <div class="row text-center " > 
+        
+        
+            <div class="img">
+            <img class="img-fluid" src="https://zerodha.com/static/images/landing.png" alt="">
+            </div>
+        </div>
+     </div>
+
+
+    </section>
+    <section class="sec-2">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="2items"> 
+                <label>Invest in everything</label>
+                <p>Online platform to invest in stocks, derivatives, mutual funds, and more</p>
+                <button > <a class="text-white" style="text-decoration: none;" href="https://signup.zerodha.com">  Sign up now</a></button>
+            </div>
+            </div>
+        </div>
+         
+    </section>
+    <section class="sec-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 aling-items-center text-center  m-auto">
+                    <div> 
+                    <img class="img-fluid mt-auto" src="https://zerodha.com/static/images/largest-broker.svg" alt="">
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                      <div>
+                        <label for="">Largest stock broker in India</label><br>
+                        <p>1+ Crore Zerodha clients contribute to over 15% of all retail order <br>
+                         Volumes in India daily by trading and investing in:</p>
+                          <br>
+                          </div>
+                          
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-5 bg-white">
+                        <ul class="ul1">
+                            <li>Futures and Options</li>
+                            <li>Commodity derivatives</li>
+                            <li>Currency derivatives</li>
+                            
+                        </ul>
+                        </div>
+                        <div class="col-md-7">
+                            <ul class="ul2">
+                                <li>Stocks & IPOs</li>
+                                <li>Direct mutual funds</li>
+                                <li>Bonds and Govt. Securities</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                      
+                    <div class="row  mt-3">
+                        
+                         <div class="col-md-9">
+                        <img  class="img-fluid " src="https://zerodha.com/static/images/press-logos.png" alt="">
+                          </div> 
+                          <div class="col-md-3">
+                            
+                          </div>    
+                      
+
+                    
+                    
+                    </div>
+                      
+
+                
+                    
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <section class="sec-4 pt-5">
+      <div class="container-fuid">
+        <div class="row text-center align-items-center">
+          <div class="inner-sec-3 mt-4 "> 
+            <label for="">The Zerodha Universe</label><br>
+            <p>A whole ecosystem of modern investment apps <br>
+                tailored to specific needs, built from the ground up</p>
+                <br>
+            </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="sec-5">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div>
+          <img class="img-fluid" src="https://zerodha.com/static/images/ecosystem.png" alt="">
+          <br>
+          <p class="blue-elements mt-3">Explore Our Products<i class="icon-arrow-right"></i></p>
+           </div>
+
+        </div>
+      </div>
+
+    </section>
+    <section class="sec-6 ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6  left-6" >
+            <div class="sec-6-left">
+              <label for="">Unbeatable pricing</label><br><br>
+              <p>We pioneered the concept of discount broking and price<br>transparency in India.Flat fees and no hidden charges.</p>
+              <p class="blue-elements">See Pricing</p>
+               </div>
+
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4 num-colum text-center">
+                <div class="sec-6-right1">
+                  <h2>₹0</h2>
+
+                  <p>Free equity delivery and <br> direct mutual funds</p>
+              </div>
+              </div>
+              <div class="col-md-4 num-colum text-center">
+                <div class="sec-6-right2">
+                  <h2>₹20</h2>
+                  <p>Intraday and F&O</p><br>
+              </div>
+
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec-7 ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 left-7 text-center m-auto">
+            <div class="sec-7-left">
+              <img class="img-fluid" src="https://zerodha.com/static/images/index-education.svg" alt="">
+          </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="sec-7-right mt-4">
+              <h4>Free and open market education</h4>
+              <p>Varsity, the largest online stock market education book in the world <br> covering everything from the basics to advanced trading.</p>
+               <p class="blue-elements">Varsity </p><br>
+               <p>TradingQ&A, the most active trading and investment community in <br> India for all your market related queries.</p>
+               <p class="blue-elements">TradingQ&A </p>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <section class="sec-8">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="sec-inner-8">
+            <h2>Open a Zerodha account</h2>
+            <p>Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.</p><br>
+            <button > <a class="text-white" style="text-decoration: none;" href="https://signup.zerodha.com">  Sign up now</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec-9">
+      <div class="container-fluid listing-row">
+        <div class="row  listing-row pt-4">
+          
+
+          
+          <div class="col-md-3 ">
+            <div class="last1">
+              <ul>
+               <li> 
+                <img class="img-fluid logo" src="https://zerodha.com/static/images/logo.svg" alt="">
+               </li>
+              <li> <p>© 2010 - 2022, Zerodha Broking Ltd.<br>
+  
+                  All rights reserved.</p></li>
+                  </ul>
+   
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="last2">
+              <ul>
+                <li class="list-head">Company</li>
+                <li>About</li>
+                <li>Products</li>
+                <li>Pricing</li>
+                <li>Referral programme</li>
+                <li>Careers</li>
+                <li>Zerodha.tech</li>
+                <li>Press & media</li>
+                <li>Zerodha Cares (CSR)</li>
+                
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-md-3">
+            <div class="last3">
+              <ul>
+                  <li class="list-head">Support</li>
+                  <li>Contact</li>
+                  <li>Support portal</li>
+                  <li>Z-Connect blog</li>
+                  <li>List of charges</li>
+                  <li>List of charges</li>
+                  <li>Videos</li>
+                  <li>Market overview</li>
+              </ul>
+  
+          </div>
+
+          </div>
+          <div class="col-md-3">
+            <div class="last4">
+              <ul>
+                  <li class="list-head">Account</li>
+                  <li>Open an account</li>
+                  <li>Fund transfer</li>
+                  <li>60 day challenge</li>
+              </ul>
+  
+          </div>
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+    <section class="sec-10 pt-4">
+      <div class="container-fluid">
+        <div class="row para-parent-row text-center">
+          <div class="footer-para">
+            <p>Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.: INZ000031633 CDSL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity Trading through Zerodha<br>Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration no.: INZ000038238 Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru -<br>560078, Karnataka, India. For any complaints pertaining to securities broking please write to complaints@zerodha.com, for DP related to dp@zerodha.com. Please ensure you carefully read the Risk Disclosure Document as <br> prescribed by SEBI | ICF</p>
+             <p>
+                Procedure to file a complaint on SEBI SCORES: Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy <br> redressal of the grievances <br><br>
+             
+                Investments in securities market are subject to market risks; read all the related documents carefully before investing. 
+                </p>
+                
+             
+             <p>
+                Attention investors: 1) Stock brokers can accept securities as margins from clients only by way of pledge in the depository system w.e.f September 01, 2020. 2) Update your e-mail and phone number with your stock broker /<br> depository participant and receive OTP directly from depository on your e-mail and/or mobile number to create pledge. 3) Check your securities / MF / bonds in the consolidated account statement issued by NSDL/CDSL <br> every month.
+    
+    
+             </p>
+             <p>
+                "Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day.<br> Issued in the interest of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same <br> process again when you approach another intermediary." Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to <br> authorize your bank to make payment in case of allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf of <br> others. If you find anyone claiming to be part of Zerodha and offering such services, please create a ticket here.
+             </p>
+        </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

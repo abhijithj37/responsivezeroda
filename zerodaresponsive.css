@@ -1,0 +1,247 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+/* body{
+    margin: 0;
+    overflow-x:hidden;
+    
+} */
+
+.logo{
+    width: 10rem;
+    
+    
+    
+
+    
+    
+
+}
+.header{
+    background-color:white;
+    border: solid 1px rgb(230, 222, 222);
+    
+
+}
+ nav{
+    background-color: white;
+
+} 
+.header li{
+    margin-left: 1em;
+
+}
+.sec-1{
+    
+    align-items: center;
+    
+    padding-top: 17vh;
+    
+}
+
+
+.sec-1 img{
+    width: 35em;
+
+    
+}
+.sec-2 button{
+    
+    
+    background-color: #387ed1;
+    color: white;
+    border-color: transparent;
+    border-radius: 3px;
+    width: 150px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.sec-2 label{
+    
+    font-size: 3rem;
+    opacity: 0.8;
+    font-weight: 500;
+    
+}
+.sec-2 p{
+    
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    line-height: em;
+    opacity: 0.8;
+}
+.sec-2{
+    padding-top:8vh ;
+}
+.sec-3{
+    padding-top: 10vh;
+    z-index: 9;
+}
+.sec-3 label{
+    font-size: 2rem;
+    color: #424242;;
+    font-weight: 500;
+    line-height: 2;
+    
+}
+.sec-3 p{
+    line-height:1.8rem;
+}
+.sec-3 li{
+    line-height: 1.8rem;
+    
+
+}
+.sec-4 label{
+    font-size: 2rem;
+    color: #424242;;
+    font-weight: 500;
+    line-height: 1.5;
+    
+
+}
+.sec-4 p{
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    line-height: 1.5;
+
+}
+.sec-4{
+    
+    z-index: 8;
+    
+}
+
+.sec-6 label{
+    color:#424242;
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+.left-6{
+    display: flex;
+    justify-content: center;
+}
+.num-colum{
+    border: solid 1px rgb(202, 194, 194);     
+}
+.sec-6-right1,.sec-6-right2{
+    line-height:2rem; 
+
+}
+.num-colum h2{
+    line-height:2em;
+    font-size: 2.75rem;
+}
+.sec-6{
+    padding-top: 4em;
+}
+.sec-6-left p{
+    line-height: 30px;
+}
+.sec-7-right h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #424242;
+    line-height: 1.7;
+
+}
+.sec-7-right p{
+    font-size: 1rem;
+    line-height: 1.8;
+
+}.sec-7{
+    padding-top:6em;
+}
+.sec-8 h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #424242;
+    line-height: 1.5;
+}
+.sec-8 button{
+    background-color: #387ed1;
+    color: white;
+    border-color: transparent;
+    border-radius: 3px;
+    width: 150px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.sec-8 p{
+    line-height: 1.8;
+
+}
+.sec-8{
+    padding-top: 6em;
+}
+.sec-9 li{
+    list-style: none;
+    line-height: 2.2em;
+}
+.list-head{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.sec-9{
+    padding-top: 5em;
+    
+}
+.listing-row{
+    background-color:#fafafb;
+}
+.footer-para p{
+    font-size: 0.65rem;
+    line-height: 1.8;
+    color: #9b9b9b;
+}
+.sec-10{
+    background-color:#fafafb ;
+
+}
+.footer-row{
+    display: flex;
+    background-color:#fafafb  ;
+    justify-content: center;
+    
+
+
+}
+.footer-row p{
+    
+    font-size: 0.75em;
+    
+    font-weight: 500;
+    color:#9b9b9b;
+}
+.blue-elements:hover{
+    color: #424242;
+}
+button:hover{
+   background-color: #083c7a;
+}
+.header li:hover{
+    color: #387ed1;
+}
+
+.footer-elements:hover{
+    color: #083c7a;
+}
+.blue-elements{
+    color: #387ed1;
+}
+/*@media (min-width: 992px){
+    #navbarSupportedContent {
+        margin-left: 38rem;
+    }
+        
+    }/*
